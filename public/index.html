@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Chat App</title>
+    <script src = "https://cdn.socket.io/4.4.1/socket.io.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>Anime Chat Room
+        <img id="op" src="\one-piece-characters.jpg" alt="One Piece">
+    </h3>
+    <div id = "Anime-Chat">
+        <div id = "Chat-window">
+            <div id = "output"></div>
+            <div id = "feedback"></div>
+        </div>
+        <input id = "handle" type="text" placeholder="Handle"/>
+        <input id = "message" type="text" placeholder="Message here"/>
+        <button id="send">Send</button>
+    </div>
+    <script src = "/chat.js"></script>
+    
+</body>
+</html>
